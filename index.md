@@ -1,7 +1,7 @@
 <style>
     @font-face {
   font-family: 'DINdong';
-  src: url('/workspaces/arsenxic.github.com/fonts/DINdong.woff') format('truetype');
+  src: url('fonts/DINdong.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,10 +10,10 @@ body, #prenom, #menu-accueil {
 }
 /* Animation pour effacer le prénom */
 #prenom {
-  font-size: 10em;
+  font-size: 15em;
   font-weight: bold;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 70px;
   opacity: 1;
   transition: opacity 1s ease;
 }
@@ -28,6 +28,9 @@ body.prenom-cache #prenom {
 }
 body.prenom-cache #menu-accueil {
   display: block;
+}
+a[href="https://arsenxic.github.io/"] {
+  display: none !important;
 }
 </style>
 <script>
