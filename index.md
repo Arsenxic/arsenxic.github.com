@@ -11,6 +11,7 @@ body, #prenom, #menu-accueil {
 /* Animation pour effacer le prénom */
 #prenom {
   font-size: 12em;
+  font-weight: bold;
   text-align: center;
   margin-top: 70px;
   opacity: 1;
@@ -20,7 +21,7 @@ body, #prenom, #menu-accueil {
   display: none;
   text-align: center;
   margin-top: 60px;
-  font-size: 2.5em;
+  font-size: 1.2em;
 }
 body.prenom-cache #prenom {
   opacity: 0;
@@ -45,9 +46,20 @@ nav,
   margin: 0 !important;
   padding: 0 !important;
 }
+
+.markdown-body hr,
+.markdown-body > hr:first-child,
+hr {
+  border: none !important;
+  background: none !important;
+  color: transparent !important;
+  box-shadow: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: none !important;
+}
 </style>
-
-
 
 
 <script>
