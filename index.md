@@ -1,7 +1,16 @@
 <style>
+    @font-face {
+  font-family: 'DINdong';
+  src: url('/workspaces/arsenxic.github.com/fonts/DINdong.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body, #prenom, #menu-accueil {
+  font-family: 'DINdong', Arial, sans-serif;
+}
 /* Animation pour effacer le prénom */
 #prenom {
-  font-size: 2.5em;
+  font-size: 10em;
   font-weight: bold;
   text-align: center;
   margin-top: 60px;
@@ -27,23 +36,9 @@ setTimeout(function() {
 }, 2000); // 2 secondes avant disparition du prénom
 </script>
 
-<div id="prenom">Arsen</div>
+<div id="prenom">Arsen Aeby</div>
 <div id="menu-accueil">
   <a href="#my-projects">Mes Projets</a> |
   <a href="#contact">Contact</a> |
   <a href="https://www.linkedin.com">LinkedIn</a>
 </div>
-
-
-Arsen Aeby
-
-Write a short bio here (who you are, what you do, your interests).
-
-## My Projects
-- **Project 1:** Short description of what you did.
-- **Project 2:** Short description of another project.
-
-## Contact
-- Email: your@email.com
-- [LinkedIn](https://www.linkedin.com)
-
